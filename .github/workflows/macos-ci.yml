@@ -19,7 +19,7 @@ jobs:
         # See https://help.github.com/en/articles/workflow-syntax-for-github-actions.
         name: [macOS-10.15-xcode-11.3.1]
 
-        build_type: [Debug, Release]
+        build_type: [Release]
         build_unstable: [ON]
         include:
           - name: macOS-10.15-xcode-11.3.1
